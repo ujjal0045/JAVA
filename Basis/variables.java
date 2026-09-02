@@ -6,6 +6,9 @@ public class Variables{
     int b = 5;
     System.out.println(a);
     System.out.println(b);
-
+    byte c = 3;
+    System.out.println(c);
+    char d ='u';
+    System.out.println(d);
   }
 }
