@@ -15,5 +15,6 @@ public class Sumof2 {
     int b = sc.nextInt();
     int sum = a + b;
     System.out.println("Sum: "+sum);
+    sc.close();
   }
 }

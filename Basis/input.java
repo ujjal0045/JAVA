@@ -12,5 +12,6 @@ public class input {
     // this is multi word 
     input = sc.nextLine();
     System.out.println("Your answer2: " + input);
+    sc.close();
   }
 }
