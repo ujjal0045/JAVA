@@ -16,5 +16,6 @@ public class bill {
     System.out.println("Your total bill: "+totalBill);
     float totalWithGst = (float) ( totalBill+ (totalBill * 0.18));
     System.out.println("your total prize with gst: "+totalWithGst);
+    sc.close();
   }
 }
