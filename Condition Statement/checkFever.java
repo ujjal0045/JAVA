@@ -8,5 +8,6 @@ public class checkFever {
     } else{
       System.out.println("Don't have fever");
     }
+    sc.close();
   }
 }
