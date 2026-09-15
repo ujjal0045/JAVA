@@ -6,6 +6,7 @@ public class DigitToWords {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int num = sc.nextInt();
+    // first reverse the number then print it into words 
     String reversedStr = new StringBuilder(String.valueOf(num)).reverse().toString();
     int reversed = Integer.parseInt(reversedStr);
     while(reversed > 0 ){
