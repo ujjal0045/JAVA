@@ -2,7 +2,6 @@ package Array;
 
 import java.util.HashSet;
 
-import Loops.patterns.star1;
 
 public class findTwice {
   // Time Comp = O(n2), space = O(N)

@@ -1,7 +1,5 @@
 package Array;
 
-import java.util.*;
-
 public class MinAndMaxSubarray {
   // brite force approach TC = O(n3);
   public static void showPair(int arr[]) {
