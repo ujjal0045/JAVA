@@ -7,13 +7,11 @@ public class Student {
   Student() {
     this.rollno = 101;
     this.name = "Rahul";
-    this.marks = 60;
   }
 
   Student(int rollno, String name) {
     this.rollno = rollno;
     this.name = name;
-    this.marks = 60;
   }
 
   Student(int rollno, int marks, String name) {
